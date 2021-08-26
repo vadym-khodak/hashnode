@@ -2,8 +2,8 @@
 
 As I promised in my previous blog post [Deploying a Django project on AWS Lambda using Serverless (Part 3)](https://blog.vadymkhodak.com/deploying-a-django-project-on-aws-lambda-using-serverless-part-3), I'd like to show you how to add a React.JS client to a Django project and deploy it with Django on AWS Lambda using Serverless.
 
-## BLUF
-Django framework allows you to build a client using Django templates, but there are a lot of cases when this is not enough. Business requirements for the client-side of your application could require adding more complex logic on the client-side. In these cases, we will not be able to solve business problems without a JavaScript web framework (React.JS, Vie.JS, Angular, etc). I'd like to show you how to build a simple React.JS client and integrate it with a Django project using [`axios`](https://www.npmjs.com/package/axios) library on the client-side and [Django REST Framework](https://pypi.org/project/djangorestframework/) on the server-side.
+##  [BLUF](https://bit.ly/38hbFUC)
+Django framework allows you to build a client using Django templates, but there are a lot of cases when this is not enough. Business requirements for the client-side of your application could require adding more complex logic on the client-side. In these cases, we will not be able to solve business problems without a JavaScript web framework (React.JS, Vue.JS, Angular, etc). I'd like to show you how to build a simple React.JS client and integrate it with a Django project using [`axios`](https://www.npmjs.com/package/axios) library on the client-side and [Django REST Framework](https://pypi.org/project/djangorestframework/) on the server-side.
 
 With this approach, I will build a React.JS client with a domain name of CloudFront distribution as a PUBLIC_URL and store it on AWS S3 bucket together with Django static files. Then, I add the built `index.html` file with React.JS app to Django templates folder and deploy it with the Django project on AWS Lambda. 
 
