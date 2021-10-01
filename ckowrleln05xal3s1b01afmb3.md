@@ -1,8 +1,8 @@
 ## Deploying a Django project on AWS Lambda using Serverless (Part 3)
 
-To follow up my [previous blog post](https://blog.vadymkhodak.com/deploy-django-app-on-aws-lambda-using-serverless-part-2) I decided to show you how to update existing and create new AWS resources for a Django project using [Terrafom](https://www.terraform.io/) (infrastructure-as-code).
+To follow up my [previous blog post](https://blog.vadymkhodak.com/deploy-django-app-on-aws-lambda-using-serverless-part-2) I decided to show you how to update existing and create new AWS resources for a Django project using [Terraform](https://www.terraform.io/) (infrastructure-as-code).
 
-[Terrafom](https://www.terraform.io/) is an open-source infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services. Terraform codifies cloud APIs into declarative configuration files.
+[Terraform](https://www.terraform.io/) is an open-source infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services. Terraform codifies cloud APIs into declarative configuration files.
 
 Terraform is a powerful tool that helps to define your AWS infrastructure as code. Using it, you can:
 - Have a single source of truth for infrastructure definition and configuration.
